@@ -9,11 +9,19 @@ export default function CoachSignup() {
 
         <form className="space-y-4 text-left">
           <div>
+            <label className="text-sm text-gray-500">Username</label>
+            <input
+              type="text"
+              placeholder="Enter your username"
+              className="w-full mt-1 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-200 text-blue-800"
+            />
+          </div>
+          <div>
             <label className="text-sm text-gray-500">Email</label>
             <input
               type="email"
               placeholder="Enter your email"
-              className="w-full mt-1 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-200"
+              className="w-full mt-1 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-200 text-blue-800"
             />
           </div>
           <div>
@@ -21,7 +29,7 @@ export default function CoachSignup() {
             <input
               type="password"
               placeholder="Create a password"
-              className=" w-full mt-1 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-200"
+              className=" w-full mt-1 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-200 text-blue-800"
             />
           </div>
           <div>
@@ -29,7 +37,7 @@ export default function CoachSignup() {
             <input
               type="password"
               placeholder="Confirm your password"
-              className="w-full mt-1 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-200"
+              className="w-full mt-1 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-200 text-blue-800"
             />
           </div>
 

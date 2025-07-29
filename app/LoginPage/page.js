@@ -55,9 +55,11 @@ export default function Login() {
             <p className="text-sm text-center mb-6">
               Fill up personal information and start journey with us.
             </p>
-            <Link href="./SignupPage"><button className="bg-white text-blue-500 px-6 py-2 rounded-full font-semibold hover:bg-gray-100 hover:bg-blue-50 font-semibold cursor-pointer transition duration-150 active:scale-95">
+            <Link href='./SignupPage'><button className="bg-white text-blue-500 px-6 py-2 rounded-full font-semibold hover:bg-gray-100 hover:bg-blue-50 font-semibold cursor-pointer transition duration-150 active:scale-95">
               Sign Up
-            </button></Link>
+            </button> 
+            </Link>
+            
           </div>
         </div>
       </div>
