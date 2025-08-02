@@ -11,16 +11,16 @@ const HeroSection = () => {
   ];
 
   return (
-    <section className="relative min-h-screen bg-[url('/main-bg.jpg')] bg-cover bg-center bg-no-repeat">
+    <section className="relative max-h-screen bg-[url('/main-bg.jpg')] bg-cover bg-center bg-no-repeat">
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-black/80 to-black/60  z-0" />
 
       {/* Top Nav */}
-      <div className="relative z-10 flex justify-between items-center px-8 py-6 max-w-7xl mx-auto">
+      <div className="relative z-10 flex justify-between items-center px-8 py-6 max-w-7xl mx-auto bg">
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <img src="/logo.png" alt="logo" className="w-10 h-10 object-contain" />
-          <h2 className="text-white text-2xl font-bold tracking-wide">SportXcel</h2>
+          <img src="/logo.png" alt="logo" className="w-20 object-contain" />
+          {/* <h2 className="text-white text-2xl font-bold tracking-wide">Playure</h2> */}
         </div>
 
         {/* Nav Actions */}
