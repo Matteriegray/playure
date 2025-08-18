@@ -1,0 +1,11 @@
+def recurse(n, results=None):
+    results = []
+    
+    results.append(n)   # save current result
+    
+    if n > 0:
+        return recurse(n - 1, results)  # recursive call
+    
+    return results
+
+print(recurse(5))
